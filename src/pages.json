@@ -26,6 +26,12 @@
         "navigationStyle": "custom"
       },
       "needLogin": true
+    },
+    {
+      "path": "pages/tos",
+      "style": {
+        "navigationStyle": "custom"
+      }
     }
   ],
   "subPackages": [

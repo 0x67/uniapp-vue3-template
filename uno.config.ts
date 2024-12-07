@@ -11,6 +11,7 @@ import {
   presetRemRpx,
   transformerAttributify,
 } from 'unocss-applet';
+import { presetShadcn } from 'unocss-preset-shadcn';
 
 const isApplet = process.env?.UNI_PLATFORM?.startsWith('mp-') ?? false;
 const presets: Preset[] = [];
@@ -40,6 +41,8 @@ export default defineConfig({
         'display': 'inline-block',
         'vertical-align': 'middle',
       },
+    }),
+    presetShadcn({
     }),
     ...presets,
   ],

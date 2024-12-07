@@ -11,6 +11,10 @@
         {{ $t('home.intro') }}
       </text>
     </view>
+
+    <!-- NOTE: uncomment this  -->
+    <!-- <Checkbox /> -->
+
     <view class="mt-100rpx flex gap-30rpx">
       <lang-select />
       <view cursor-pointer @click="toGithub">
